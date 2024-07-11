@@ -19,12 +19,12 @@
 }
 
 input {
-  &[type="text"] {
+  &[type='text'] {
     width: 300px;
   }
-  &[type="number"] {
+  &[type='number'] {
     width: 4em;
-  } 
+  }
 }
 
 td {
@@ -33,7 +33,26 @@ td {
 
 tr {
   &:nth-child(even) {
-  background: rgba(55, 55, 55, 0.8);
+    background: rgba(55, 55, 55, 0.8);
+  }
+}
+
+table {
+  width: 100%;
+}
+
+tbody {
+  display: flex;
+  flex-direction: column;
+}
+
+tr {
+  display: flex;
+  flex-direction: row;
+  & .age {
+    margin-left: auto;
+    flex-basis: 50px;
+    flex-shrink: 0;
   }
 }
 
