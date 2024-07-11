@@ -4,7 +4,7 @@ import { Table } from './Table';
 import { useState } from 'react';
 
 export function Header() {
-  return <h1>People table</h1>;
+  return <h1>People table. Bla</h1>;
 }
 
 export function App() {
