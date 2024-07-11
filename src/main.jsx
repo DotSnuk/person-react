@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {Header, ImportForm} from './Form.jsx'
+import {Header, App} from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Header />
-    <ImportForm />
+    <App />
   </React.StrictMode>,
 )
